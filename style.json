@@ -2,10 +2,10 @@
   "version": 8,
   "metadata": {},
   "center": [
-    135.17904,
-    34.677829
+    135.1231,
+    34.7579
   ],
-  "zoom": 11,
+  "zoom": 10,
   "sources": {
     "hani": {
       "type": "vector",
