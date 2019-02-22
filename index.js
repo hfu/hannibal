@@ -36,7 +36,7 @@ const main = async () => {
     '--base-zoom=8', '--output-to-directory=tiles',
     '--no-tile-compression'
   ], { stdio: ['pipe', 'inherit', 'inherit'] })
-  await convert(process.stdout)
+  await convert(tippecanoe.stdin)
   tippecanoe.stdin.end()
 }
 main()
