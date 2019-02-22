@@ -4,6 +4,7 @@
 I wanted to test the idea of hosting a few number of vector tiles as static resources to provide polygon data for map painting.
 
 ## the product
+https://hfu.github.io/hannibal
 
 ## production of vector tiles
 First you need to install [Tippecanoe](https://github.com/mapbox/tippecanoe).
