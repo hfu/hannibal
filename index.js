@@ -29,6 +29,14 @@ const convert = (writable) => {
 }
 
 const main = async () => {
+  const tippecanoe = spawn('tippecanoe', [
+    '--no-feature-limit', '--no-tile-size-limit',
+    '--force', '--simplification=2',
+    '--minimum-zoom=8', '--maximum-zoom=8',
+    '--base-zoom=8', '--output-to-directory=tiles',
+    '--no-tile-compression'
+  ], { stdio: ['pipe', 'inherit', 'inherit'] })
   await convert(process.stdout)
+  tippecanoe.stdin.end()
 }
 main()
