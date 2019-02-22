@@ -29,10 +29,8 @@ map.on('load', function() {
 map.on('mousemove', 'hani-fill', function(e) {
   map.getCanvas().style.cursor = 'pointer'
   var s = ''
-console.log(e.features)
   for (var i in e.features) {
     var f = e.features[i]
-console.log(f)
     s += f.properties.name + ' (' + f.properties.f_no + ')<br/>' 
   }
   popup.setLngLat(e.lngLat)
