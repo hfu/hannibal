@@ -26,13 +26,14 @@ popup = new mapboxgl.Popup({
 map.on('load', function() {
   map.addControl(new mapboxgl.NavigationControl())
 })
-map.on('mouseenter', 'hani', function(e) {
+map.on('mousemove', 'hani-fill', function(e) {
   map.getCanvas().style.cursor = 'pointer'
+console.log(e.features)
   popup.setLngLat(e.lngLat)
     .setHTML('hey')
     .addTo(map)
 })
-map.on('mouseleave', 'hani', function() {
+map.on('mouseleave', 'hani-fill', function() {
   map.getCanvas().style.cursor = ''
   popup.remove()
 })
