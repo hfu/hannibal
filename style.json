@@ -27,12 +27,22 @@
       }
     },
     {
-      "id": "hani",
+      "id": "hani-fill",
       "type": "fill",
       "source": "hani",
       "source-layer": "hani",
       "paint": {
         "fill-color": "rgb(46, 125, 50)"
+      }
+    },
+    {
+      "id": "hani-line",
+      "type": "line",
+      "source": "hani",
+      "source-layer": "hani",
+      "paint": {
+        "line-color": "rgb(245, 245, 245)",
+        "line-width": 3
       }
     }
   ]
