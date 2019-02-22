@@ -1,0 +1,39 @@
+{
+  "version": 8,
+  "metadata": {},
+  "center": [
+    135,
+    35
+  ],
+  "zoom": 8,
+  "sources": {
+    "hani": {
+      "type": "vector",
+      "tiles": [
+        "https://hfu.github.io/hannibal/tiles/{z}/{x}/{y}.pbf"
+      ],
+      "attribution": "Kobe",
+      "minzoom": 8,
+      "maxzoom": 8
+    }
+  },
+  "glyphs": "https://vectortiles.xyz/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "rgb(187, 222, 251)"
+      }
+    },
+    {
+      "id": "hani",
+      "type": "fill",
+      "source": "hani",
+      "source-layer": "hani",
+      "paint": {
+        "fill-color": "rgb(187, 222, 251)"
+      }
+    }
+  ]
+}

@@ -20,6 +20,7 @@
   "dependencies": {
     "config": "^3.0.1",
     "hjson": "^3.1.2",
+    "reproject": "^1.2.3",
     "shapefile": "^0.6.6"
   }
 }
