@@ -31,7 +31,7 @@ map.on('mousemove', 'hani-fill', function(e) {
   var s = ''
 console.log(e.features)
   for (var i in e.features) {
-    var f = features[i]
+    var f = e.features[i]
 console.log(f)
     s += f.properties.name + ' (' + f.properties.f_no + ')<br/>' 
   }
