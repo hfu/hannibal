@@ -42,7 +42,13 @@
       "source-layer": "hani",
       "paint": {
         "line-color": "rgb(245, 245, 245)",
-        "line-width": 3
+        "line-width": [
+          "interpolate",
+          ["linear"],
+          ["zoom"],
+          8, 1,
+          14, 3
+        ]
       }
     }
   ]
