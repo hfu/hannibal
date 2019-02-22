@@ -28,9 +28,12 @@ map.on('load', function() {
 })
 map.on('mousemove', 'hani-fill', function(e) {
   map.getCanvas().style.cursor = 'pointer'
-console.log(e.features)
+  var s = ''
+  for (var f in e.features) {
+    s += f.properties.name + ' (' + f.properties.f_no _ ')<br/>' 
+  }
   popup.setLngLat(e.lngLat)
-    .setHTML('hey')
+    .setHTML(s)
     .addTo(map)
 })
 map.on('mouseleave', 'hani-fill', function() {
