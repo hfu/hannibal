@@ -2,10 +2,10 @@
   "version": 8,
   "metadata": {},
   "center": [
-    135,
-    35
+    135.17904,
+    34.677829
   ],
-  "zoom": 8,
+  "zoom": 11,
   "sources": {
     "hani": {
       "type": "vector",
@@ -23,7 +23,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "rgb(187, 222, 251)"
+        "background-color": "rgb(245, 245, 245)"
       }
     },
     {
@@ -32,7 +32,7 @@
       "source": "hani",
       "source-layer": "hani",
       "paint": {
-        "fill-color": "rgb(187, 222, 251)"
+        "fill-color": "rgb(46, 125, 50)"
       }
     }
   ]
