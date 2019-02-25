@@ -7,8 +7,8 @@ module.exports = (f) => {
   delete f.properties['F_NO']
   f.tippecanoe = {
     layer: 'hani',
-    minzoom: 8,
-    maxzoom: 8
+    minzoom: 7,
+    maxzoom: 12
   }
   return f
 }

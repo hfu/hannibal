@@ -13,8 +13,8 @@
         "https://hfu.github.io/hannibal/tiles/{z}/{x}/{y}.pbf"
       ],
       "attribution": "Kobe",
-      "minzoom": 8,
-      "maxzoom": 8
+      "minzoom": 7,
+      "maxzoom": 12
     }
   },
   "glyphs": "https://vectortiles.xyz/fonts/{fontstack}/{range}.pbf",

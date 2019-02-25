@@ -30,9 +30,9 @@ const convert = (writable) => {
 const main = async () => {
   const tippecanoe = spawn('tippecanoe', [
     '--no-feature-limit', '--no-tile-size-limit',
-    '--force', '--no-line-simplification',
-    '--minimum-zoom=8', '--maximum-zoom=8',
-    '--base-zoom=8', '--output-to-directory=tiles',
+    '--force', '--simplification=1',
+    '--minimum-zoom=7', '--maximum-zoom=12',
+    '--base-zoom=12', '--output-to-directory=tiles',
     '--no-tile-compression', '--hilbert',
     '--detect-shared-borders'
   ], { stdio: ['pipe', 'inherit', 'inherit'] })

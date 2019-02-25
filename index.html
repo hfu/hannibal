@@ -32,6 +32,7 @@ map.on('mousemove', 'hani-fill', function(e) {
   for (var i in e.features) {
     var f = e.features[i]
     s += f.properties.name + ' (' + f.properties.f_no + ')<br/>' 
+    console.log(f)
   }
   popup.setLngLat(e.lngLat)
     .setHTML(s)
