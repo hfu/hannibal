@@ -8,7 +8,7 @@ module.exports = (f) => {
   f.tippecanoe = {
     layer: 'hani',
     minzoom: 7,
-    maxzoom: 12
+    maxzoom: 14
   }
   return f
 }
